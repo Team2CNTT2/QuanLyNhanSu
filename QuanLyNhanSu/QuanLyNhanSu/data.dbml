@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QL_NHANSU" Class="dataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-8N0O4EO;Initial Catalog=QL_NHANSU;Integrated Security=True" SettingsObjectName="QuanLyNhanSu.Properties.Settings" SettingsPropertyName="QL_NHANSUConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DuAn" Member="DuAns">
+    <Type Name="DuAn">
+      <Column Name="MaDA" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenDA" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MaPB" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="DiaDiem" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="tongsogio" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NguoiDung" Member="NguoiDungs">
+    <Type Name="NguoiDung">
+      <Column Name="ID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="pass" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NhanVien" Member="NhanViens">
+    <Type Name="NhanVien">
+      <Column Name="MaNV" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NgaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DChi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GTinh" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="Luong" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="MaPB" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="NgGS" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="SoNVDuoiQuyen" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="SDT" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Chucvu" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PhanCong" Member="PhanCongs">
+    <Type Name="PhanCong">
+      <Column Name="MaNV" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MaDA" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SoGio" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PhongBan" Member="PhongBans">
+    <Type Name="PhongBan">
+      <Column Name="MaPB" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenPB" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MaTP" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Ng_NC" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="SoNV" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ThanNhan" Member="ThanNhans">
+    <Type Name="ThanNhan">
+      <Column Name="MaNV" Type="System.String" DbType="NChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenTN" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GioiTinh" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="NgaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="QuanHe" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.DuAn_NV" Method="DuAn_NV">
+    <Parameter Name="mada" Type="System.String" DbType="NChar(10)" />
+    <ElementType Name="DuAn_NVResult">
+      <Column Name="MaNV" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.kiemtra_da" Method="kiemtra_da">
+    <Parameter Name="ma" Type="System.String" DbType="NChar(10)" />
+    <ElementType Name="kiemtra_daResult">
+      <Column Name="" Member="Column1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.kiemtra_nv" Method="kiemtra_nv">
+    <Parameter Name="ma" Type="System.String" DbType="NChar(10)" />
+    <ElementType Name="kiemtra_nvResult">
+      <Column Name="" Member="Column1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.kiemtra_pb" Method="kiemtra_pb">
+    <Parameter Name="ma" Type="System.String" DbType="NChar(10)" />
+    <ElementType Name="kiemtra_pbResult">
+      <Column Name="" Member="Column1" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.NV_select" Method="NV_select">
+    <ElementType Name="NV_selectResult">
+      <Column Name="MaNV" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="TenNV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NgaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="DChi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GTinh" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="Luong" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="MaPB" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="NgGS" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="SoNVDuoiQuyen" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="SDT" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="Chucvu" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.PB_NV" Method="PB_NV">
+    <Parameter Name="ma" Type="System.String" DbType="NChar(10)" />
+    <ElementType Name="PB_NVResult">
+      <Column Name="TenPB" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.PB_select" Method="PB_select">
+    <ElementType Name="PB_selectResult">
+      <Column Name="MaPB" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="TenPB" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Sua_DA" Method="Sua_DA">
+    <Parameter Name="mada" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="tenda" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="mapb" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="sogio" Type="System.String" DbType="Char(10)" />
+    <Parameter Name="diadiem" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Sua_NV" Method="Sua_NV">
+    <Parameter Name="manv" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="nggs" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="hoten" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="gioitinh" Type="System.String" DbType="Char(3)" />
+    <Parameter Name="diachi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="ngaysinh" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="luong" Type="System.String" DbType="Char(10)" />
+    <Parameter Name="phongban" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="sonv" Type="System.String" DbType="Char(3)" />
+    <Parameter Name="email" Type="System.String" DbType="NChar(20)" />
+    <Parameter Name="SDT" Parameter="sDT" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="Chucvu" Parameter="chucvu" Type="System.String" DbType="NChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Sua_PB" Method="Sua_PB">
+    <Parameter Name="mapb" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="tenpb" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="matp" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="sonv" Type="System.String" DbType="Char(3)" />
+    <Parameter Name="ngaync" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ThanNhan_NV" Method="ThanNhan_NV">
+    <Parameter Name="ma" Type="System.String" DbType="NChar(10)" />
+    <ElementType Name="ThanNhan_NVResult">
+      <Column Name="TenTN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GioiTinh" Type="System.String" DbType="Char(3)" CanBeNull="true" />
+      <Column Name="Ngaysinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="QuanHe" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Them_DA" Method="Them_DA">
+    <Parameter Name="mada" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="tenda" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="mapb" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="sogio" Type="System.String" DbType="Char(10)" />
+    <Parameter Name="diadiem" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Them_NhanVien" Method="Them_NhanVien">
+    <Parameter Name="manv" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="nggs" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="hoten" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="gioitinh" Type="System.String" DbType="Char(3)" />
+    <Parameter Name="diachi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="ngaysinh" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="luong" Type="System.String" DbType="Char(10)" />
+    <Parameter Name="phongban" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="sonv" Type="System.String" DbType="Char(3)" />
+    <Parameter Name="email" Type="System.String" DbType="NChar(20)" />
+    <Parameter Name="SDT" Parameter="sDT" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="Chucvu" Parameter="chucvu" Type="System.String" DbType="NChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.them_nv" Method="them_nv">
+    <Parameter Name="MaNV" Parameter="maNV" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="TenNV" Parameter="tenNV" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="NGAYSINH" Parameter="nGAYSINH" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="GIOITINH" Parameter="gIOITINH" Type="System.String" DbType="Char(3)" />
+    <Parameter Name="luong" Type="System.String" DbType="Char(10)" />
+    <Parameter Name="dchi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="nggs" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="MAPB" Parameter="mAPB" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="Sonv" Parameter="sonv" Type="System.String" DbType="Char(3)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Them_PB" Method="Them_PB">
+    <Parameter Name="mapb" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="tenpb" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="matp" Type="System.String" DbType="NChar(10)" />
+    <Parameter Name="sonv" Type="System.String" DbType="Char(3)" />
+    <Parameter Name="ngaync" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.them_taikhoan" Method="them_taikhoan">
+    <Parameter Name="username" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="pass" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Xoa_DA" Method="Xoa_DA">
+    <Parameter Name="mada" Type="System.String" DbType="NChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Xoa_NV" Method="Xoa_NV">
+    <Parameter Name="ma" Type="System.String" DbType="NChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Xoa_PB" Method="Xoa_PB">
+    <Parameter Name="mapb" Type="System.String" DbType="NChar(10)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.dangnhap" Method="dangnhap">
+    <Parameter Name="username" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="pass" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="dangnhapResult">
+      <Column Name="ID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>
