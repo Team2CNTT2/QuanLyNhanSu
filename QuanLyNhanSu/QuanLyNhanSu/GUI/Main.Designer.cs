@@ -11,14 +11,14 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
+        //protected override void Dispose(bool disposing)
+        //{
+        //    if (disposing && (components != null))
+        //    {
+        //        components.Dispose();
+        //    }
+        //    base.Dispose(disposing);
+        //}
 
         #region Windows Form Designer generated code
 
@@ -44,10 +44,9 @@
             // panelMain
             // 
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(0, 28);
-            this.panelMain.Margin = new System.Windows.Forms.Padding(4);
+            this.panelMain.Location = new System.Drawing.Point(0, 24);
             this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(800, 422);
+            this.panelMain.Size = new System.Drawing.Size(600, 342);
             this.panelMain.TabIndex = 4;
             this.panelMain.Paint += new System.Windows.Forms.PaintEventHandler(this.panelMain_Paint);
             // 
@@ -59,10 +58,10 @@
             this.FormQl});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(600, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // hệThốngToolStripMenuItem
             // 
@@ -70,13 +69,13 @@
             this.btnLogin,
             this.btnDangxuat});
             this.hệThốngToolStripMenuItem.Name = "hệThốngToolStripMenuItem";
-            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
+            this.hệThốngToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.hệThốngToolStripMenuItem.Text = "Hệ thống";
             // 
             // btnLogin
             // 
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(216, 26);
+            this.btnLogin.Size = new System.Drawing.Size(132, 22);
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
@@ -84,7 +83,7 @@
             // 
             this.btnDangxuat.Enabled = false;
             this.btnDangxuat.Name = "btnDangxuat";
-            this.btnDangxuat.Size = new System.Drawing.Size(216, 26);
+            this.btnDangxuat.Size = new System.Drawing.Size(132, 22);
             this.btnDangxuat.Text = "Đăng xuất";
             this.btnDangxuat.Click += new System.EventHandler(this.btnDangxuat_Click);
             // 
@@ -97,40 +96,41 @@
             this.thânNhânToolStripMenuItem});
             this.FormQl.Enabled = false;
             this.FormQl.Name = "FormQl";
-            this.FormQl.Size = new System.Drawing.Size(71, 24);
+            this.FormQl.Size = new System.Drawing.Size(60, 20);
             this.FormQl.Text = "Quản lý";
             // 
             // NhanVienToolStripMenuItem
             // 
             this.NhanVienToolStripMenuItem.Name = "NhanVienToolStripMenuItem";
-            this.NhanVienToolStripMenuItem.Size = new System.Drawing.Size(155, 26);
+            this.NhanVienToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.NhanVienToolStripMenuItem.Text = "Nhân viên";
             // 
             // phòngBanToolStripMenuItem
             // 
             this.phòngBanToolStripMenuItem.Name = "phòngBanToolStripMenuItem";
-            this.phòngBanToolStripMenuItem.Size = new System.Drawing.Size(155, 26);
+            this.phòngBanToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.phòngBanToolStripMenuItem.Text = "Phòng ban";
             // 
             // dựÁnToolStripMenuItem
             // 
             this.dựÁnToolStripMenuItem.Name = "dựÁnToolStripMenuItem";
-            this.dựÁnToolStripMenuItem.Size = new System.Drawing.Size(155, 26);
+            this.dựÁnToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.dựÁnToolStripMenuItem.Text = "Dự án";
             // 
             // thânNhânToolStripMenuItem
             // 
             this.thânNhânToolStripMenuItem.Name = "thânNhânToolStripMenuItem";
-            this.thânNhânToolStripMenuItem.Size = new System.Drawing.Size(155, 26);
+            this.thânNhânToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
             this.thânNhânToolStripMenuItem.Text = "Thân nhân";
             // 
             // Main
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.menuStrip1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Main";
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);

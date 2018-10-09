@@ -9,3 +9,13 @@ F:\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
 F:\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
 F:\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
 F:\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.Acount.resources
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.Acount.resources
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.duan.resources
+C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.Main.resources

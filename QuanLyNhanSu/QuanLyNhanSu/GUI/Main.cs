@@ -53,5 +53,10 @@ namespace QuanLyNhanSu.GUI
             }
             else { return; }
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }
