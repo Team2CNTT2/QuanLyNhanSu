@@ -45,9 +45,9 @@ namespace QuanLyNhanSu
     partial void InsertPhongBan(PhongBan instance);
     partial void UpdatePhongBan(PhongBan instance);
     partial void DeletePhongBan(PhongBan instance);
-    partial void InsertThanNhan(ThanNhan instance);
-    partial void UpdateThanNhan(ThanNhan instance);
-    partial void DeleteThanNhan(ThanNhan instance);
+    partial void InsertThanNhan(Than_nhan instance);
+    partial void UpdateThanNhan(Than_nhan instance);
+    partial void DeleteThanNhan(Than_nhan instance);
     #endregion
 		
 		public dataDataContext() : 
@@ -120,11 +120,11 @@ namespace QuanLyNhanSu
 			}
 		}
 		
-		public System.Data.Linq.Table<ThanNhan> ThanNhans
+		public System.Data.Linq.Table<Than_nhan> ThanNhans
 		{
 			get
 			{
-				return this.GetTable<ThanNhan>();
+				return this.GetTable<Than_nhan>();
 			}
 		}
 		
@@ -1108,7 +1108,7 @@ namespace QuanLyNhanSu
 	}
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.ThanNhan")]
-	public partial class ThanNhan : INotifyPropertyChanging, INotifyPropertyChanged
+	public partial class Than_nhan : INotifyPropertyChanging, INotifyPropertyChanged
 	{
 		
 		private static PropertyChangingEventArgs emptyChangingEventArgs = new PropertyChangingEventArgs(String.Empty);
@@ -1139,7 +1139,7 @@ namespace QuanLyNhanSu
     partial void OnQuanHeChanged();
     #endregion
 		
-		public ThanNhan()
+		public Than_nhan()
 		{
 			OnCreated();
 		}

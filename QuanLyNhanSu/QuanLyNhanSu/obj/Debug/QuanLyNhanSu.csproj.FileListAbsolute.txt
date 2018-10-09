@@ -19,3 +19,14 @@ C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\
 C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
 C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.duan.resources
 C:\Users\Pham Van Cuong\Documents\GitHub\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.Main.resources
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.Acount.resources
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.duan.resources
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.Main.resources
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.ThanNhan.resources
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+E:\Học kỳ 6\Thực tập nhóm\Lab\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
