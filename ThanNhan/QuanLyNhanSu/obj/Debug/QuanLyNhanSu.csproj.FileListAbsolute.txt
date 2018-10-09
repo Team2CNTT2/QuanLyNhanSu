@@ -1,9 +1,0 @@
-E:\Học kỳ 6\Thực tập nhóm\QuanLyNhanSu\ThanNhan\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
-E:\Học kỳ 6\Thực tập nhóm\QuanLyNhanSu\ThanNhan\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
-E:\Học kỳ 6\Thực tập nhóm\QuanLyNhanSu\ThanNhan\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
-E:\Học kỳ 6\Thực tập nhóm\QuanLyNhanSu\ThanNhan\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
-E:\Học kỳ 6\Thực tập nhóm\QuanLyNhanSu\ThanNhan\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.ThanNhan.resources
-E:\Học kỳ 6\Thực tập nhóm\QuanLyNhanSu\ThanNhan\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache
-E:\Học kỳ 6\Thực tập nhóm\QuanLyNhanSu\ThanNhan\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
-E:\Học kỳ 6\Thực tập nhóm\QuanLyNhanSu\ThanNhan\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
-E:\Học kỳ 6\Thực tập nhóm\QuanLyNhanSu\ThanNhan\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.ThanNhan1.resources
