@@ -13,7 +13,7 @@ namespace QuanLyNhanSu.GUI
 {
     public partial class PhongBan : Form
     {
-        string strConn = @"Server=DESKTOP-5BQLC7V; Database=QL_NHANSU; Integrated Security=True";
+        string strConn = @"Server=DESKTOP-8N0O4EO; Database=QL_NHANSU; Integrated Security=True";
         SqlConnection conn;
         public PhongBan()
         {
