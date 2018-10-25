@@ -13,7 +13,7 @@ namespace QuanLyNhanSu.Data
     {
 
        // public static string chuoiketnoi = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\database\DuLieu.mdf;Integrated Security=True;Connect Timeout=30";
-        public static string chuoiketnoi = @"Data Source = "+SystemInformation.ComputerName+ "Initial Catalog=QL_NHANSU;Integrated Security=True";
+        public static string chuoiketnoi = @"Data Source = "+SystemInformation.ComputerName+ ";Initial Catalog=QL_NHANSU;Integrated Security=True";
         public static SqlConnection con;
         public static SqlCommand cmd;
         public static SqlDataAdapter da;

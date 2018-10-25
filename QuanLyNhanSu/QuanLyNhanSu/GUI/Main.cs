@@ -58,5 +58,45 @@ namespace QuanLyNhanSu.GUI
         {
 
         }
+
+        private void NhanVienToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+  
+        }
+
+        private void dựÁnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DA da = new DA();
+            panelMain.Controls.Clear();
+
+            da.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(da);
+            da.Show();
+        }
+
+        private void phòngBanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            PB da = new PB();
+            panelMain.Controls.Clear();
+
+            da.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(da);
+            da.Show();
+        }
+
+        private void thânNhânToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            TN da = new TN();
+            panelMain.Controls.Clear();
+
+            da.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(da);
+            da.Show();
+        }
+
+        private void FormQl_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
