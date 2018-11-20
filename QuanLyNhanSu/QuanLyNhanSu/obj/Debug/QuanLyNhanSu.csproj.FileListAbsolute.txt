@@ -15,3 +15,19 @@ F:\GitHub\TTN\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.
 F:\GitHub\TTN\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.PB.resources
 F:\GitHub\TTN\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojAssemblyReference.cache
 F:\GitHub\TTN\QuanLyNhanSu\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.TN.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe.config
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.exe
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.pdb
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.exe
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\bin\Debug\QuanLyNhanSu.pdb
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csprojResolveAssemblyReference.cache
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.Acount.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.DA.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.duan.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.Main.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.PB.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Thannhan.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.PhongBan.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.GUI.TN.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.Properties.Resources.resources
+C:\Users\duc khanh\Documents\Visual Studio 2015\Projects\qlns\qlns\QuanLyNhanSu-1\QuanLyNhanSu\QuanLyNhanSu\obj\Debug\QuanLyNhanSu.csproj.GenerateResource.Cache

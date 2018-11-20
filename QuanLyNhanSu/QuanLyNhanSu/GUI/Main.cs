@@ -61,7 +61,12 @@ namespace QuanLyNhanSu.GUI
 
         private void NhanVienToolStripMenuItem_Click(object sender, EventArgs e)
         {
-  
+            NV da = new NV();
+            panelMain.Controls.Clear();
+
+            da.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(da);
+            da.Show();
         }
 
         private void dựÁnToolStripMenuItem_Click(object sender, EventArgs e)
